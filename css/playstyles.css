@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+}
+
+div {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 400px) {
+  div {
+    background-color: red;
+
+  }
+}
