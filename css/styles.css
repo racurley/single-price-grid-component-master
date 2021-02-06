@@ -31,10 +31,10 @@ h2 {
 
 main {
   border-radius: 10px;
-  margin: 20vh auto;
+  margin: 5vh auto;
   text-align: left;
   width: 55%;
-  min-width: 325px;
+  min-width: 300px;
   max-width: 700px;
   overflow: hidden;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
@@ -42,7 +42,7 @@ main {
 
 p {
   font-size: .8rem;
-  line-height: 1.1;
+  line-height: 1.6;
   padding-top: 5px;
   margin: 0;
 }
@@ -54,6 +54,7 @@ ul {
 
 li {
   line-height: 1.4;
+  font-size: 0.8rem;
 }
 
 /*************** CLASS CSS  *********************/
@@ -99,9 +100,9 @@ li {
   text-align: left;
 }
 
-.card-top p {
+/* .card-top p {
   line-height: 1.6;
-}
+} */
 
 .card-top {
   background-color: white;
@@ -156,12 +157,14 @@ li {
     font-size: 1.2rem;
   }
 
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 20vh auto;
   }
 
-  p {
+  p, li {
     font-size: 1.0rem;
   }
 
